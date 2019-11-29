@@ -1,83 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Experimental DB</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+      integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Experimental DB</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
-        <link rel="stylesheet" href="index.css">
-    </head>
+  <body>
+    <!--Navbar code-->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand">ExDB</a>
+      <form class="form-inline btn-toolbar">
+        <div class="btn-toolbar">
+          <a
+            class="btn btn-primary my-2 mx-2 my-sm-0"
+            href="https://apolydorides.github.io/signin.html"
+            role="button"
+            >Sign in</a
+          >
+          <a
+            class="btn btn-primary my-2 mx-2 my-sm-0"
+            href="https://apolydorides.github.io/register.html"
+            role="button"
+            >Register</a
+          >
+        </div>
+      </form>
+    </nav>
 
-    <body>
-        <!--Navbar code-->
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand">ExDB</a>
-            <form class="form-inline btn-toolbar">
-                <div class="btn-toolbar">
-                    <a class="btn btn-primary my-2 mx-2 my-sm-0" href="https://apolydorides.github.io/signin.html" role="button">Sign in</a>
-                    <a class="btn btn-primary my-2 mx-2 my-sm-0" href="https://apolydorides.github.io/register.html" role="button">Register</a>
+    <div class="container h-100">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-8 col-lg-6 mx-auto">
+          <div class="card text-center d-flex my-auto">
+            <div class="card-body">
+              <!-- Card for search utility -->
+
+              <form action="">
+                <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
+                  <div class="input-group">
+                    <input
+                      type="search"
+                      placeholder="What are you searching for?"
+                      aria-describedby="button-addon1"
+                      class="form-control border-0 bg-light"
+                    />
+                  </div>
                 </div>
-            </form>
-        </nav>
+                <div class="form-row">
+                  <div class="col px-3">
+                    <label for="exampleFormControlSelect1"
+                      >In vivo/In vitro</label
+                    >
+                    <select class="form-control" id="filter1">
+                      <option selected> - </option>
+                      <option>In vivo</option>
+                      <option>In vitro</option>
+                    </select>
+                  </div>
 
-        <div class="container">
-
-          <div class="row-fluid">
-            <div class="col-sm-12 col-md-8 col-lg-6 h-100 mx-auto">
-
-              <div class="card text-center d-flex my-auto">
-                <div class="card-body"> <!-- Card for search utility -->
-
-                  <form action="">
-                      <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
-                        <div class="input-group">
-                          <input type="search" placeholder="What are you searching for?" aria-describedby="button-addon1" class="form-control border-0 bg-light">
-                        </div>
-                      </div>
-                      <div class="form-row">
-
-                        <div class="col px-3">
-                          <label for="exampleFormControlSelect1">In vivo/In vitro</label>
-                          <select class="form-control" id="filter1">
-                            <option selected> - </option>
-                            <option>In vivo</option>
-                            <option>In vitro</option>
-                          </select>
-                        </div>
-
-                        <div class="col px-3">
-                          <label for="exampleFormControlSelect1">Live/Fixed</label>
-                          <select class="form-control" id="filter1">
-                            <option selected> - </option>
-                            <option>Live</option>
-                            <option>Fixed</option>
-                          </select>
-                        </div>
-
-                      </div>
-                      <div class="form-row">
-                        <div class="col">
-
-                        </div>
-                        <div class="col">
-
-                        </div>
-                      </div>
-                  </form>
-
+                  <div class="col px-3">
+                    <label for="exampleFormControlSelect1">Live/Fixed</label>
+                    <select class="form-control" id="filter1">
+                      <option selected> - </option>
+                      <option>Live</option>
+                      <option>Fixed</option>
+                    </select>
+                  </div>
                 </div>
-              </div>
-
+                <div class="form-row">
+                  <div class="col"></div>
+                  <div class="col"></div>
+                </div>
+              </form>
             </div>
           </div>
-
         </div>
-
-
-
-    </body>
-
+      </div>
+    </div>
+  </body>
 </html>
