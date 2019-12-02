@@ -20,17 +20,17 @@
   <body>
     <!-- Navbar code -->
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand">ExDB</a>
+        <a class="navbar-brand" href="https://apolydorides.github.io/">ExDB</a>
         <form class="form-inline btn-toolbar">
           <div class="btn-toolbar">
             <a
-              class="btn btn-primary my-2 mx-2 my-sm-0"
+              class="btn btn-success my-2 mx-2 my-sm-0"
               href="https://apolydorides.github.io/signin.html"
               role="button"
               >Sign in</a
             >
             <a
-              class="btn btn-primary my-2 mx-2 my-sm-0"
+              class="btn btn-success my-2 mx-2 my-sm-0"
               href="https://apolydorides.github.io/register.html"
               role="button"
               >Register</a
@@ -38,6 +38,63 @@
           </div>
         </form>
       </nav>
+
+      <div class="h-100 container">
+        <div class="sidenav">
+
+          <form >
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" href="https://apolydorides.github.io/results.html" type="submit">Search</button>
+            </form>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1"
+                >In vivo/In vitro</label
+              >
+              <select class="form-control" id="filter1">
+                <option selected> - </option>
+                <option>In vivo</option>
+                <option>In vitro</option>
+              </select>
+            </div>
+
+            <label for="exampleFormControlSelect2"
+                      >Live/Fixed</label
+                    >
+                    <select class="form-control" id="filter2">
+                      <option selected> - </option>
+                      <option>Live</option>
+                      <option>Fixed</option>
+                    </select>
+          </form>
+        </div>
+
+        <div class="row">
+          <div class="card-body">
+            <h4 class="card-title mb-3">Research paper title 1</h4>
+            <p class="card-text"><strong>[Author and publication date]</strong></p>
+            <p class="card-text">Details about the paper</p>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="card-body">
+              <h4 class="card-title mb-3">Research paper title 2</h4>
+              <p class="card-text"><strong>[Author and publication date]</strong></p>
+              <p class="card-text">Details about the paper</p>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="card-body">
+                <h4 class="card-title mb-3">Research paper title 3</h4>
+                <p class="card-text"><strong>[Author and publication date]</strong></p>
+                <p class="card-text">Details about the paper</p>
+              </div>
+            </div>
+
+      </div>
 
       
   </body>
