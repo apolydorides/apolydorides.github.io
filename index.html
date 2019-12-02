@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="author" content=""/>
     <title>Experimental DB</title>
     <link
       rel="stylesheet"
@@ -20,8 +20,8 @@
 
   <body>
     <!--Navbar code-->
-    <nav class="navbar navbar-dark bg-dark">
-      <div>
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <div class="container">
       <a class="navbar-brand" href="https://apolydorides.github.io/index.html">ExDB</a>
       <form class="form-inline btn-toolbar">
         <div class="btn-toolbar">
@@ -50,10 +50,15 @@
               <!-- Card for search utility -->
               <h2 class="card-title mb-3">Experimental database</h2>
               <form action="">
-                <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="search" placeholder="What are you looking for?" aria-label="Search">
-                  <button class="btn btn-success my-2 my-sm-0" href="" type="submit">Search</button>
-                </form>
+                <div class="form-row">
+                  <div class="col px-3">
+                    <input class="form-control mr-sm-2" type="search" placeholder="What are you looking for?" aria-label="Search">
+                  </div>
+                  
+                  <div class="col px-3">
+                    <button class="btn btn-success my-2 my-sm-0" href="" type="submit">Search</button>
+                  </div>
+                </div>
 
                 <div class="form-row">
                   <div class="col px-3">
