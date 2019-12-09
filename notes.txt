@@ -1,0 +1,12 @@
+TODOs
+    - Build HTML with Java
+    - Connect front end with back-end so that search works
+    - Implement Chart.js for line graphs (multiple lines)4
+status level: tres bueno
+
+    - Display spreadsheet based on search results
+    - Have 3 option "pill" bar for list, datasheet, chart
+status level: perfection
+
+    - Add sign in and register functionality
+status level: u wot m8
